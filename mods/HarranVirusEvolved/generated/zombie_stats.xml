@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ZombieStats modName="Harran Virus Evolved" modVersion="1.0.0">
+  <Runner
+    speedMultiplier="2.4"
+    sprintStaminaSeconds="18"
+    reactionTimeSeconds="0.09"
+    nightBonusMultiplier="1.25"
+    leapRangeMeters="7.5"
+    healthMultiplier="1.15" />
+
+  <Biter
+    speedMultiplier="1.9"
+    reactionTimeSeconds="0.2"
+    climbEnabled="True"
+    healthMultiplier="0.9" />
+
+  <Volatile
+    speedMultiplier="1.4"
+    aggressionMultiplier="1.35"
+    armorMultiplier="1.2" />
+</ZombieStats>
