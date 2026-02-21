@@ -1,0 +1,54 @@
+{
+  "mod": {
+    "name": "Harran Virus Evolved",
+    "version": "1.0.0",
+    "author": "Codex"
+  },
+  "zombie": {
+    "runner": {
+      "move_speed_multiplier": 2.4,
+      "sprint_stamina_seconds": 18,
+      "reaction_time_seconds": 0.09,
+      "night_bonus_multiplier": 1.25,
+      "leap_range_meters": 7.5,
+      "health_multiplier": 1.15
+    },
+    "biter": {
+      "move_speed_multiplier": 1.9,
+      "reaction_time_seconds": 0.2,
+      "climb_enabled": true,
+      "health_multiplier": 0.9
+    },
+    "volatile": {
+      "move_speed_multiplier": 1.4,
+      "aggression_multiplier": 1.35,
+      "armor_multiplier": 1.2
+    }
+  },
+  "death_angel_abilities": {
+    "echolocation": {
+      "enabled": true,
+      "noise_trigger_distance_meters": 55,
+      "investigation_duration_seconds": 16
+    },
+    "armor_plating": {
+      "enabled": true,
+      "frontal_damage_reduction": 0.72,
+      "opened_plate_critical_bonus": 2.6,
+      "opened_plate_window_seconds": 2.75
+    },
+    "hyper_dash": {
+      "enabled": true,
+      "cooldown_seconds": 9,
+      "dash_speed_multiplier": 3.2,
+      "dash_distance_meters": 14
+    }
+  },
+  "spawn": {
+    "day_runner_chance": 0.62,
+    "night_runner_chance": 0.83,
+    "volatile_pack_size_min": 2,
+    "volatile_pack_size_max": 4,
+    "loud_event_reinforcement_delay_seconds": 7
+  }
+}
