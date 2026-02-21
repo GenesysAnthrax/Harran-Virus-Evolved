@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialAbilities modName="Harran Virus Evolved" modVersion="1.0.0">
+  <Echolocation
+    enabled="True"
+    triggerDistanceMeters="55"
+    investigateSeconds="16" />
+
+  <ArmorPlating
+    enabled="True"
+    frontalDamageReduction="0.72"
+    openPlateCriticalBonus="2.6"
+    openPlateWindowSeconds="2.75" />
+
+  <HyperDash
+    enabled="True"
+    cooldownSeconds="9"
+    speedMultiplier="3.2"
+    distanceMeters="14" />
+</SpecialAbilities>
